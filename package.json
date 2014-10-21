@@ -1,0 +1,11 @@
+{
+  "name": "deck-cards",
+  "version": "0.0.1",
+  "description": "OO Stuff in JS",
+  "author": "Phil Wilt <phillip.wilt@gmail.com>",
+
+  "devDependencies": {
+  "chai": "*",
+  "mocha": "*"
+  }
+}
