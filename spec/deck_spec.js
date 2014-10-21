@@ -1,7 +1,17 @@
-var should = require('chai').should();
-var Deck = require('../lib/deck');
+var should = chai.should();
 
-var deck = new Deck();
+describe("Deck", function () {
+  it("should have an initial size", function () {
+    var deck = new Deck();
+    deck.size().should.equal(52);
+  });
 
-deck.size().should.equal(52);
-deck.draw().should.equal({suit: "Spades", value: "Ace"});
+  it("should draw a card", function () {
+    var deck = new Deck();
+    var card = new Card( "Spades", "Ace" );
+
+    deck.draw().valueOf().should.equal( card.valueOf() );
+    deck.size().should.equal(51);
+  });
+
+});
