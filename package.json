@@ -5,7 +5,7 @@
   "author": "Phil Wilt <phillip.wilt@gmail.com>",
 
   "devDependencies": {
-  "chai": "*",
-  "mocha": "*"
+    "chai": "*",
+    "mocha": "*"
   }
 }

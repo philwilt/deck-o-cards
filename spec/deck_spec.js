@@ -10,7 +10,7 @@ describe("Deck", function () {
     var deck = new Deck();
     var card = new Card( "Spades", "Ace" );
 
-    deck.draw().valueOf().should.equal( card.valueOf() );
+    deck.draw().toString().should.equal( card.toString() );
     deck.size().should.equal(51);
   });
 
